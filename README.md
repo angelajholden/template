@@ -1,6 +1,8 @@
 # Template :pineapple:
 
-This is a template to start new projects.
+This is a static HTML5, SCSS and JavaScript template to start new projects.
+
+## Get Started
 
 ```bash
 git clone git@github.com:angelajholden/template.git
@@ -64,9 +66,9 @@ dist/
 
 ---
 
-## Deploy to Heroku
+### Deploy to Heroku
 
-This can be easily deployed to Heroku as a `php` app.
+Static projects can be deployed to Heroku as a `php` app with this hack.
 
 ```php
 <?php

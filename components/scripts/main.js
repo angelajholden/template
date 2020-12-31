@@ -1,9 +1,9 @@
 function copyrightYear() {
-    let c = document.getElementById("date");
-    let d = new Date();
-    c.innerHTML = d.getFullYear();
+	const copyright = document.getElementById("copy_date");
+	const year = new Date();
+	copyright.innerHTML = year.getFullYear();
 }
 
 window.onload = () => {
-    copyrightYear();
+	copyrightYear();
 };
