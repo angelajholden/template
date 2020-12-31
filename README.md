@@ -10,7 +10,61 @@ npm install
 
 ---
 
-## Heroku Ready!
+### Grunt JS Task Runner
+
+In the terminal type `grunt` to start watching your files. The output should look something like this.
+
+![Grunt running in the terminal](/grunt-in-terminal.png)
+
+---
+
+### Live Reload
+
+Listens on `port: 8000` by default. Double check the grunt terminal output to be sure.
+
+```bash
+http://127.0.0.1:8000
+```
+
+---
+
+### Source Folders
+
+Edit SCSS and JavaScript in the Components directory. Add scripts and styles as needed.
+
+```
+components/
+|__ scripts/
+    |__ main.js
+
+|__ scss/
+    |__ _variables.scss
+    |__ _normalize.scss
+    |__ _main.scss
+    |__ styles.scss
+```
+
+---
+
+### Compiled Folders
+
+Grunt will compile your SCSS and JavaScript like this.
+
+```
+dist/
+|__ js/
+    |__ scripts.js
+    |__ scripts.min.js
+    |__ scripts.min.js.map
+
+|__ css/
+    |__ styles.css
+    |__ styles.map.css
+```
+
+---
+
+## Deploy to Heroku
 
 This can be easily deployed to Heroku as a `php` app.
 
